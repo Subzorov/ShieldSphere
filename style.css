@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00008B;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Top Bar */
+.topBar {
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px;
+}
+.logoHome {
+    color: #00008B;
+    font-weight: bold;
+}
+.logoText {
+    color: #00008B;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navLinks {
+    display: flex;
+    gap: 30px;
+}
+
+.navLinks span {
+    color: #00008B;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.heroSection {
+    text-align: center;
+    padding: 60px 20px;
+    background: #00008B;
+}
+
+.heroSection h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.heroSection p {
+    font-size: 1.5em;
+    color: #B0E0E6;
+}
+
+/* Email Subscription Section */
+.emailSubscription {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.emailSubscription h2 {
+    color: #00008B;
+    font-size: 2.2em;
+    margin-bottom: 40px;
+}
+
+.subscriptionForm {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #1E90FF;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px;
+}
+
+.formGroup {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.formGroup label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #B0E0E6;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: white;
+    color: #00008B;
+}
+
+.formGroup input[type="text"]:focus,
+.formGroup input[type="email"]:focus {
+    outline: none;
+    border-color: #1E90FF;
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    color: #00008B;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Motivation Section */
+.motivationSection {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.motivationSection h2 {
+    color: #00008B;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.motivationContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.motivationContent p {
+    color: #00008B;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Services Section */
+.servicesSection {
+    padding: 60px 20px;
+    background: #1e1eff;
+    text-align: center;
+}
+
+.servicesSection h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.serviceItem {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px;
+}
+
+.serviceItem h3 {
+    color: #00008B;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.serviceItem p {
+    color: #00008B;
+    margin-bottom: 15px;
+}
+
+/* Checkbox Styles */
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    color: #00008B;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.checkboxContainer input {
+    margin-right: 10px;
+}
+
+.checkMark {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+/* Radio Group Styles */
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.radioGroup label {
+    display: flex;
+    align-items: center;
+    color: #00008B;
+    cursor: pointer;
+}
+
+.radioGroup input {
+    margin-right: 10px;
+}
+
+/* Footer */
+.footerSection {
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footerSection p {
+    color: #00008B;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Basic input element styling */
+input[type="checkbox"],
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
